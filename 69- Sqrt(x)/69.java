@@ -7,7 +7,7 @@ class Solution {
             mid = (left + right) / 2;
             if(mid == x/mid)
                 return mid;
-            else if(x/mid<mid)
+            else if(x/mid < mid)
                 right = mid;
             else
                 left = mid;
